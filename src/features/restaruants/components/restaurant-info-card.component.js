@@ -16,7 +16,7 @@ import {
   Address,
 } from "./restaurant-info-card.styles";
 
-export const RestaurantInfo = ({ restaurant = {} }) => {
+export const RestaurantInfoCard = ({ restaurant = {} }) => {
   const {
     name = "Pickle's Chicken Hut",
     icon = "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
